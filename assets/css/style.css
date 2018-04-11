@@ -1,0 +1,30 @@
+body { font-size: 14px; }
+
+.seccion { padding: 8rem 0; }
+
+.seccion2 { padding: 6rem 0; }
+
+.seccion.not-padd-bott { padding-bottom: 0; }
+
+header { background-image: url(../images/bg.jpeg); background-position: center center; background-repeat: no-repeat; background-size: cover; }
+header nav.navbar { border-radius: none; background-color: rgba(0, 0, 0, 0.8); }
+header nav.navbar .navbar-header a.navbar-brand img { height: 30px; }
+
+.navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: rgba(0, 0, 0, 0); }
+
+.banner { color: #fff; }
+.banner h1 { font-weight: 400; line-height: 1.2; }
+.banner p { margin-top: 1rem; font-weight: 100; letter-spacing: .04rem; }
+
+.solicitar-info { background-color: #fafafa; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+
+.contacto .listado { list-style-type: none; padding-left: 0; }
+.contacto .listado .disabled a { color: #000; }
+.contacto .navbar-form { padding-left: 0; }
+
+.carousel.slide { margin-top: 4rem; }
+
+footer { background-color: #000; padding: 3rem; }
+footer p { margin-bottom: 0; color: #fff; }
+
+@media screen and (max-width: 768px) { .contacto .navbar-form { padding-left: 15px; } }
